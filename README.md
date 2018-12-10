@@ -9,7 +9,7 @@ For example, youtube is completely blocked from inside china so we can't use any
 Detection takes time so we trigger document-level jquery events to run code after the detection has finished
  `$(document).trigger("DetectServiceComplete", service);`
 
-*EXAMPLE EVENT HANDLER:*
+**EXAMPLE EVENT HANDLER:**
  
  ```
  $(document).on("DetectServiceComplete",
@@ -21,6 +21,7 @@ Detection takes time so we trigger document-level jquery events to run code afte
     }); 
  ```
     
- *AFTER EVENT, WE CAN ALSO READ FROM GLOBAL STATE:*
+ **AFTER EVENT, WE CAN ALSO READ FROM GLOBAL STATE:**
+ 
 `if (window.serviceDetector.youtube.successful) {`
  
