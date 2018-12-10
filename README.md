@@ -1,9 +1,10 @@
 # SSW.ServiceDetector
 
-Dependency: this files requires jQuery 
-Install: include this js into you webpage after jQuery
+**Dependency**: this file requires jQuery 
 
-This js detects our ability to use various 3rd party services - by attempting to load the favicon from that service's website.
+**Install**: include this js into your webpage after jQuery
+
+Detect our ability to use various 3rd party services - by attempting to load the favicon from that service's website.
 For example, youtube is completely blocked from inside china so we can't use any youtube features. 
   
 Detection takes time so we trigger document-level jquery events to run code after the detection has finished
