@@ -4,6 +4,8 @@
 
 **Install**: include this js into your webpage after jQuery
 
+This library is based on the SSW Rule - [Do you detect service availability from the client?](https://rules.ssw.com.au/do-you-detect-service-availability-from-the-client)
+
 Detect our ability to use various 3rd party services - by attempting to load the favicon from that service's website.
 For example, youtube is completely blocked from inside china so we can't use any youtube features. 
   
